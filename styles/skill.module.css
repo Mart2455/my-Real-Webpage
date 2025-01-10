@@ -1,0 +1,72 @@
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     text-align: center;
+     background-color: lightgrey;
+}
+
+.title{
+    font-size: 100px;
+    align-items: center;
+    text-align: center;
+}
+.line{
+    background-color: black;
+    border: none;
+    width: 100%;
+    height: 2px;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-color: lightskyblue;
+    padding: 50px;
+}
+
+.ButtonStyle{
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+.ButtonStyle:hover{
+    background-color: white;
+}
+
+.linkclass{
+   font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
+.picture{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+.textBox1{
+    width: 500px;
+    padding: 0; 
+    margin: 0 auto; 
+    border: solid black;
+    display: flex; 
+    border-radius: 15px;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.picture1{  
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}

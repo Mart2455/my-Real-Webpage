@@ -1,0 +1,69 @@
+
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     text-align: center;
+     background-color: lightgrey;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 75px;
+    justify-content: center;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-color: lightskyblue;
+    padding: 50px;
+}
+
+.ButtonStyle{
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+.ButtonStyle:hover{
+    background-color: white;
+}
+.linkclass{
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
+.line{
+    background-color: black;
+    border: none;
+    width: 100%;
+    height: 2px;}
+.Picture{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+.picContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkclass1{
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: blue;
+}

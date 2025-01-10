@@ -1,0 +1,73 @@
+.container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-color: lightskyblue;
+    padding: 50px;
+}
+
+.Title{
+    text-align: center;
+    justify-content: center;
+    font-size: 75px;
+}
+
+.line{
+    border: 1px solid black;
+    width: 100%;
+   margin: 20px auto;
+}
+.centerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 5px solid black;
+    width:  500px;
+}
+
+.legend1{
+    font-size: 45px;
+}
+.label{
+    font-size: 50px;
+}
+.input{
+    font-size: 50px;
+}
+
+.ButtonStyle{
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+.ButtonStyle:hover{
+    background-color: white;
+}
+.linkclass{
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
