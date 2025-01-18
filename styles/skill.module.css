@@ -3,13 +3,18 @@
     flex-direction: column;
      align-items: center;
      text-align: center;
-     background-color: lightgrey;
+     background: linear-gradient(135deg, #1e3c72, #2a5298);
 }
-
+.container{
+    margin: 0;
+    padding: 0;
+}
 .title{
     font-size: 100px;
     align-items: center;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 .line{
     background-color: black;
@@ -18,16 +23,17 @@
     height: 2px;
 }
 .buttonContainer{
+    
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
-    background-color: lightskyblue;
+    background:  #6495ED;
     padding: 50px;
 }
 
 .ButtonStyle{
-    background-color: lightskyblue;
+    background:  #6495ED;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -41,7 +47,8 @@
 }
 
 .linkclass{
-   font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 75px;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -53,6 +60,8 @@
     height: 200px;
 }
 .textBox1{
+    background-color: white;
+    margin-top: 10px;
     width: 500px;
     padding: 0; 
     margin: 0 auto; 
@@ -62,6 +71,11 @@
     justify-content: center; 
     align-items: center;
     flex-direction: column;
+    
+}
+.picContainer{
+    background: lightcyan;
+    padding-top: 20px;
     
 }
 

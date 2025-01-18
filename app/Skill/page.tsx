@@ -4,7 +4,14 @@ import styles from '../../styles/skill.module.css'
 
 export default function skill(){
     return(
-        <body>
+       <>
+       <head>
+            <link rel="icon" href="m_icon4.png" />
+            <title>Martin Miskovski</title>
+            </head>
+
+        <body className={styles.container}>
+          
         <div className={styles.titleContainer}>
         <h1 className={styles.title}>SkillSet</h1>
         </div>
@@ -27,25 +34,26 @@ export default function skill(){
             </div>
            <div className={styles.picContainer}>
             <fieldset className={styles.textBox1}>
-            <img src="c++_icon.ico" alt="C++" className={styles.picture}/>
+            <img src="C_icon.ico" alt="C++" className={styles.picture}/>
             
             </fieldset>
             <br />
             <fieldset className={styles.textBox1}>
-            <img src="html_icon.ico" alt="C++" className={styles.picture1}/>
+            <img src="html_icon.ico" alt="html" className={styles.picture1}/>
             
             </fieldset>
             <br />
             <fieldset className={styles.textBox1}>
-            <img src="javascript.ico" alt="C++" className={styles.picture1}/>
+            <img src="javascript.ico" alt="Java" className={styles.picture1}/>
             </fieldset>
             <br />
 
             <fieldset className={styles.textBox1}>
-            <img src="css.ico" alt="C++" className={styles.picture1}/>
+            <img src="css.ico" alt="CSS" className={styles.picture1}/>
             </fieldset>
             </div>
                 
             </body> 
+            </>
     );
 }

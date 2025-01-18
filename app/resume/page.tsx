@@ -2,8 +2,12 @@ import Link from 'next/link'
 import styles from '../../styles/resume.module.css';
 
 export default function resume(){
-    return(
-        <body>
+    return(<>
+        <head>
+        <link rel="icon" href="m_icon4.png" />
+        <title>Martin Miskovski</title>
+        </head>
+        <body className={styles.body}>
             
         <div className={styles.titleContainer}>
         <h1 className={styles.title}>Resume</h1>
@@ -18,20 +22,25 @@ export default function resume(){
             </button>
             <br />
             <button className={styles.ButtonStyle}>
-            <Link href="/Skill" className={styles.linkclass}>Contact Me! </Link>
+            <Link href="/contact" className={styles.linkclass}>Contact Me! </Link>
             </button>
             <br />
             <button className={styles.ButtonStyle}>
             <Link href="/about" className={styles.linkclass}>About Me </Link>
             </button>
             </div>
-            <hr className={styles.line}/>
+            
             <div className={styles.picContainer}>
-            <img src="/img/screenshot_resume.JPG" alt="Resume" className={styles.Picture}/>
+            <img 
+        src="/img/screenshot_resume.jpg" 
+        alt="Resume" 
+        className={styles.Picture} 
+        style={{ maxWidth: "100%", height: "auto" }}  />
             </div>
-                <hr className={styles.line}/>
-                <h1 className={styles.title}>Downloadable Version of My Resume</h1>
+                
+                <h1 className={styles.title1}>Downloadable Version of My Resume</h1>
                 <a href="/pdfs/Resume__.pdf" target="_blank" className={styles.linkclass1}>Click Here</a>
                 </body>
+                </>
     );
 }

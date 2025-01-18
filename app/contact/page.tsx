@@ -36,14 +36,16 @@ export default function contactMe(){
         }
     };
 
-    return (
-        <body>
+    return (<>
+           <head>
+            <link rel="icon" href="m_icon4.png" />
+            <title>Martin Miskovski</title>
+            </head>
+        <body className={styles.body}>
             
         
             <h1 className={styles.Title}>Contact Me!</h1>
-
-            <hr className={styles.line} />
-
+           
            <div className={styles.buttonContainer}>
             <button className={styles.ButtonStyle}>
             <Link href="/" className={styles.linkclass}>Home page</Link>
@@ -60,7 +62,7 @@ export default function contactMe(){
             <Link href="/resume" className={styles.linkclass}>Resume</Link>
             </button>
             </div>
-            <hr className={styles.line} />
+            
             <div className={styles.centerContainer}>
             <fieldset className={styles.textBox}>
                 <legend className={styles.legend1}>Send Me a Message</legend>
@@ -88,5 +90,6 @@ export default function contactMe(){
             </fieldset>
             </div>
             </body>
+            </>
     );
 }

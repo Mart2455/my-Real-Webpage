@@ -18,14 +18,18 @@
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
-    background-color: lightskyblue;
+    background:  #6495ED;
     padding: 50px;
 }
-
+.mainBox{
+    background:  linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 0px;
+    margin: 0px;
+}
 .title {
-    background-color: lightblue;
-    font-size: 50px;
-    color: black;
+    background-color: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-size: 75px;
+    color: white;
     text-align: center;
     padding: 50px 0;
     margin: 0;
@@ -38,6 +42,7 @@
     font-size: 45px;
 }
 .textBox1{
+    background-color: white;
     width: 500px;
     padding: 0; 
     margin: 0; 
@@ -49,6 +54,8 @@
     flex-direction: column;
 }
 .picContainer{
+    background: lightcyan;
+    padding-top: 10px;
     display: flex; 
     border-radius: 15px;
     justify-content: center; 
@@ -63,12 +70,13 @@
     
 }
 .Title1{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     text-align: center;
     align-items: center;
 }
 .ButtonStyle{
-    background-color: lightskyblue;
+    background-color: #6495ED;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -81,15 +89,14 @@
     background-color: white;
 }
 .linkclass{
-    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
     text-decoration: none;
     text-align: center;
     display: block;
     color: black;
 }
-.picContainer{
-    width: ;
-}
+
 .Para1{
     display: flex;
     flex-direction: column;
@@ -100,4 +107,9 @@
     word-wrap: break-word;
     word-break: break-word;
     overflow-wrap: break-word;
+}
+.body{
+    background-color: lightcyan;
+    padding: 0;
+    margin: 0;
 }
